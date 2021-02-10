@@ -9,7 +9,7 @@ Status: under construction.
 import speech_recognition as sr
 
 # obtain audio from the microphone
-# requires PyAudio
+# requires PyAudio (only supports python 3.6)
 r = sr.Recognizer()
 with sr.Microphone() as source:
     print("Say something!")
