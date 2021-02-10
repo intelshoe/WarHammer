@@ -1,5 +1,5 @@
-# WarHammer - A Modern Phreak's War-Dialing Sword
-A war dialer, aka telephone number mass calling program.
+# TeleStir - A Modern Telephone Tool
+
 
 <h2>Status:</h2>
 Under Construction
