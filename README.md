@@ -1,4 +1,4 @@
-# TeleStir - A Modern Telephone Tool
+# Telephone Map - A Modern Telephone Tool
 
 
 <h2>Status:</h2>
