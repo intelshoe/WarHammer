@@ -1,4 +1,4 @@
-# WarHammer - a modern phreaker's war dialing sword.
+# WarHammer - A Modern Phreak's War-Dialing Sword.
 A war dialer, aka telephone number scanner.
 
 <h2>Status:</h2>
