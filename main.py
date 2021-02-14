@@ -13,7 +13,7 @@ def main():
     talkBot = Talk()
 
     # record about 10 seconds and translate to text output
-    print(talkBot.record())
+    print(talkBot.record(5))
 
 
 # runs the whole program

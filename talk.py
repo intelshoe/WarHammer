@@ -14,7 +14,7 @@ from os import path
 
 class Talk():
     def __init__(self):
-        seconds = 5
+        seconds = 0
 
     def __str__():
         return "Talk Options"
@@ -36,7 +36,7 @@ class Talk():
         # use the above audio file as the source to be translated to text
         r = sr.Recognizer()
         with sr.AudioFile(AUDIO_FILE) as source:
-        audio = r.record(source)  # read the entire audio file
+            audio = r.record(source)  # read the entire audio file
 
         # recognize speech using Google Speech Recognition
         try:
