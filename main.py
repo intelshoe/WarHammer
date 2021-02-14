@@ -22,6 +22,7 @@ def speachToTxt():
     time.sleep(10)
 
     #  making a change to show you
+    #making a change!!!
 
     # write audio to a WAV file
     with open("microphone-results.wav", "wb") as f:
