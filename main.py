@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 
 '''
-tmap - A modern phreaker's war dialing sword.
+This section records audio
 
-Status: under construction.
+Needs work:
+break parts into class
 '''
 
 import speech_recognition as sr
@@ -19,6 +20,8 @@ def speachToTxt():
         audio = r.listen(source)
 
     time.sleep(10)
+
+    #  making a change to show you
 
     # write audio to a WAV file
     with open("microphone-results.wav", "wb") as f:
