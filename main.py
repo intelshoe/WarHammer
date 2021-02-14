@@ -12,8 +12,10 @@ def main():
     # start the talking feature
     talkBot = Talk()
 
-    # record 10 second to wav file
-    talkBot.record(10)
+    # record about 10 seconds and translate to text output
+    text = talkBot.record()
+
+    
 
 # runs the whole program
 main()
