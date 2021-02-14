@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
 
 '''
-This section records audio
+This section records audio and return speach to text result
 
-Needs work:
-break parts into class
 '''
 import speech_recognition as sr
 import time
