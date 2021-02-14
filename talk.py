@@ -14,13 +14,14 @@ from os import path
 
 class Talk():
     def __init__(self):
-        seconds = 0
+        seconds = 5
+        fname = ""
 
     def __str__():
         return "Talk Options"
 
     # saves audio to wav file and outputs speach to text
-    def record(self, seconds):
+    def record(self, seconds, fname):
         r = sr.Recognizer()
         with sr.Microphone() as source:
             print("Say something!")
@@ -28,11 +29,11 @@ class Talk():
 
         time.sleep(seconds)
         # write audio to a WAV file
-        with open("microphone-results.wav", "wb") as f:
+        with open(fname + ".wav", "wb") as f:
             f.write(audio.get_wav_data())
 
         # begin code to transcribe audio to text
-        AUDIO_FILE = path.join(path.dirname(path.realpath(__file__)), "microphone-results.wav")
+        AUDIO_FILE = path.join(path.dirname(path.realpath(__file__)), fname + ".wav")
         # use the above audio file as the source to be translated to text
         r = sr.Recognizer()
         with sr.AudioFile(AUDIO_FILE) as source:
